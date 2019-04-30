@@ -1,0 +1,60 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        align-self: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        margin-top: 5rem;
+        font-size: $default-font-size;
+        font-weight: 700;
+        border: 1px solid $color-primary-dark;
+        color: $color-primary;
+        border-radius: $border-Radius-big;
+        background-image: linear-gradient(to top, transparent 0%, transparent 50%, $color-primary 50%, $color-primary-light 100%);
+        background-size: 100% 200%;
+        background-position: 0 100%;
+        transition: color .4s ease;
+        letter-spacing: .3rem;
+        cursor: pointer;
+        @include respond(tab-port) {
+            margin-top: 8rem;
+        }
+        @include respond(phone) {
+            font-size: 2rem;
+            margin-top: 4rem;
+        }
+    }
+    &:hover {
+        animation: btnMoveInBottom .3s;
+        animation-fill-mode: forwards;
+        color: $color-white;
+        background-position: 100%;
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 3rem rgba($color-black, 0.5);
+    }
+}
+
+.btn-text {
+    &:link,
+    &:visited {
+        font-size: $default-font-size;
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: .1rem solid $color-primary;
+        padding: .3rem;
+        transition: all .2s;
+    }
+    &:hover {
+        background-color: $color-primary;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        transform: translateY(-0.2rem);
+    }
+    &:active {
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+        transform: translateY(0);
+    }
+}

@@ -28,8 +28,18 @@
     font-weight: 700;
     transition: all .8s; }
 
+#header {
+  height: 50vh;
+  background-position: center; }
+
+#heading-main {
+  padding-top: 0; }
+
+#logo-box {
+  padding-bottom: 0; }
+
 main {
-  padding-top: 12rem; }
+  padding-top: 8rem; }
 
 .about__card {
   display: flex; }
@@ -759,7 +769,7 @@ input::placeholder {
   .details__tel {
     margin-left: 3rem;
     padding-top: 1rem;
-    color: #999;
+    color: #f7f7f7;
     font-size: 2rem; }
     @media (max-width: 37.5em) {
       .details__tel {
@@ -767,7 +777,7 @@ input::placeholder {
         font-size: 1rem; } }
 
 address {
-  color: #2998ff;
+  color: #f7f7f7;
   margin-right: 3rem;
   padding-right: 2rem;
   font-size: 1.5rem; }
@@ -782,7 +792,7 @@ address {
 
 address span {
   font-size: 2rem;
-  color: #999; }
+  color: #f7f7f7; }
   @media only screen and (max-width: 56.25em) {
     address span {
       font-size: 1.3rem; } }
@@ -999,11 +1009,12 @@ address span {
 
 .section-footer {
   padding: 2rem 0;
-  background-image: linear-gradient(to right bottom, #2998ff, #1404f3);
+  background-image: linear-gradient(to right bottom, white, #1404f3);
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  border-top: 1px solid #ccc; }
   @media only screen and (max-width: 56.25em) {
     .section-footer {
       padding-top: 0; } }

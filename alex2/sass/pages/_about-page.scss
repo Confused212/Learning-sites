@@ -38,10 +38,26 @@
 }
 
 ///////////////////////////////////////
+// header
+///////////////////////////////////////
+#header {
+    height: 50vh;
+    background-position: center;
+}
+
+#heading-main {
+    padding-top: 0;
+}
+
+#logo-box {
+    padding-bottom: 0;
+}
+
+///////////////////////////////////////
 // main body
 ///////////////////////////////////////
 main {
-    padding-top: 12rem;
+    padding-top: 8rem;
 }
 
 .about {

@@ -368,7 +368,8 @@ h2 {
     .blog__heading-span {
       box-decoration-break: clone;
       -webkit-box-decoration-break: clone;
-      margin: 2rem auto; }
+      margin: 2rem auto;
+      padding: .8rem 1.5rem; }
       @media only screen and (min-width: 112.5em) {
         .blog__heading-span {
           font-size: 2rem; } }
@@ -641,7 +642,7 @@ input::placeholder {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    filter: brightness(70%); }
+    filter: brightness(90%); }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #000, #000), url(../img/treat2.jpg); }
     .card__picture--2 {

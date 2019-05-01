@@ -1,0 +1,18 @@
+.images {
+    &__photo {
+        width: 25%;
+        box-shadow: 0 2rem 6rem rgba($color-black, .4);
+        transition: all 0.2s;
+        outline-offset: 2rem;
+        &--id {
+            border-radius: 30%;
+            width: 50%;
+        }
+        &:hover {
+            border-radius: 0;
+            outline: 1rem solid $color-primary;
+            transform: scale(1.05) translateY(-.5rem);
+            box-shadow: 0 2.5rem 4rem rgba($color-black, .6);
+        }
+    }
+}

@@ -76,6 +76,7 @@
             box-decoration-break: clone;
             -webkit-box-decoration-break: clone;
             margin: 2rem auto;
+            padding: .8rem 1.5rem;
             @include respond(desktop-large) {
                 font-size: 2rem;
             }

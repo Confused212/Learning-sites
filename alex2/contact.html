@@ -20,17 +20,17 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item "><a href="index.html" class="navigation__link " target="_blank ">About Dr Davies</a></li>
+                <li class="navigation__item "><a href="about.html" class="navigation__link " target="_blank ">About Dr Davies</a></li>
                 <li class="navigation__item "><a href="blog.html " class="navigation__link " target="_blank ">Blog</a></li>
                 <li class="navigation__item "><a href="treatments.html " class="navigation__link " target="_blank ">Available treatments</a></li>
                 <li class="navigation__item "><a href="gallery.html " class="navigation__link " target="_blank ">Gallery</a></li>
-                <li class="navigation__item "><a href="contact.html " class="navigation__link " target="_blank ">Home</a></li>
+                <li class="navigation__item "><a href="index.html" class="navigation__link " target="_blank ">Home</a></li>
             </ul>
         </nav>
     </div>
     <header class="header" id="header">
         <div class="header__logo-box" id="logo-box">
-            <img src="img/big-logo.png " alt="logo" class="header__logo">
+            <img src="img/white-logo.png " alt="logo" class="header__logo">
         </div>
         <div class="header__text-box">
             <h1 class="heading-primary" id="heading-main">
@@ -40,14 +40,27 @@
     </header>
     <main>
         <section class="section-location">
+            <div class="location__map">
+                <h4>location of my practice</h4>
+                <div id="map"></div>
+            </div>
+            <div class="location__times">
+                <h2 class="heading-secondary" id="heading-location">
+                    Working Hours
+                </h2>
+                <ul class="location__days">
+                    <li class="location__hours">Monday &nbsp;<span>0830 - 1700</span> </li>
+                    <li class="location__hours">Tuesday &nbsp;<span>0830 - 1700</span> </li>
+                    <li class="location__hours">Wednesday &nbsp;<span>0830 - 1700</span> </li>
+                    <li class="location__hours">Thursday &nbsp;<span>0830 - 1700</span> </li>
+                    <li class="location__hours">Friday &nbsp;<span>0830 - 1700</span> </li>
+                    <li class="location__hours">Weekend &nbsp;<span>Closed</span> </li>
 
+                </ul>
+            </div>
         </section>
         <section class="section-contact">
-            <div class="u-center-text u-margin-bottom-big ">
-                <h3 class="heading-secondary ">
-                    contact
-                </h3>
-            </div>
+
             <div class="contact">
                 <div class="heading">
                     <h1>Get </br> in </br>Touch</h1>
@@ -68,6 +81,37 @@
                     <input type="button" value="submit" class="form__btn">
                 </div>
             </div>
+        </section>
+        <section class="section-testimonials " id="testimonials-about">
+            <div class="u-center-text u-margin-bottom-big ">
+                &nbsp;
+            </div>
+            <div class="testimonials">
+                <div class="review" id="about-review-1">
+                    <div class="review__img" id="about-img-1">
+                        <img src="img/review-1.jpg" alt="photo-1">
+                    </div>
+                    <p class="paragraph review__para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur iure animi quas reiciendis, magni ad aspernatur consectetur eos temporibus neque voluptatem blanditiis laboriosam quidem cum. Necessitatibus molestias esse deserunt ipsam.
+                    </p>
+                    <h4 class="review__heading">
+                        someones name
+                    </h4>
+                </div>
+                <div class="review" id="about-review-2">
+                    <div class="review__img" id="about-img-2">
+                        <img src="img/review-2.jpg" alt="photo-1" class="review__img--1">
+                    </div>
+                    <p class="paragraph review__para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur iure animi quas reiciendis, magni ad aspernatur consectetur eos temporibus neque voluptatem blanditiis laboriosam quidem cum. Necessitatibus molestias esse deserunt ipsam.
+                    </p>
+                    <h4 class="review__heading">
+                        someones name
+                    </h4>
+                </div>
+            </div>
+
+            <a href="gallery.html" target="_blank" class="btn">View Gallery</a>
         </section>
     </main>
     <footer class="section-footer">
@@ -98,6 +142,7 @@
             </div>
         </div>
     </footer>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeflNh-mpMYTqSZWGF9H3TM5evLg2YPMg&callback=initMap" async defer></script>
     <script src="js/script.js " async defer></script>
 </body>
 

@@ -29,7 +29,6 @@
     text-transform: uppercase;
     letter-spacing: .2rem;
     padding-top: 2rem;
-    // background: $color-gray-dark-1;
     background-image: linear-gradient(to right, $color-primary, $color-primary-light);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -89,4 +88,14 @@ h2 {
         margin-left: 0;
         padding-top: 2rem;
     }
+}
+
+h4 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: $default-font-size;
+    background-image: linear-gradient(to right, $color-primary, $color-primary-light);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .3rem;
 }

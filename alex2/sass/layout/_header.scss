@@ -1,8 +1,9 @@
 .header {
-    background-image: linear-gradient( to bottom right, rgba($color-white, .8), rgba($color-primary-dark, 0.8)), url(../img/dental-chair.jpg);
+    background-image: linear-gradient( to bottom right, rgba($color-primary, .8), rgba($color-white, 0.8)), url(../img/dental-chair.jpg);
     background-size: cover;
     background-position: top;
     height: 85vh;
+    border-bottom: 1px solid $color-gray-light-3;
     position: relative;
     display: flex;
     flex-direction: column;

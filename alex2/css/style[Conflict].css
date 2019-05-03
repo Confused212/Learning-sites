@@ -94,22 +94,14 @@ hr {
 
 .location__times {
   flex: 0 0 40%;
-  text-align: left; }
+  text-align: left;
+  padding-left: 10rem; }
 
 .location__days {
-  font-size: 2.5rem;
-  margin-left: 7rem;
-  padding-top: 3rem; }
+  font-size: 3rem; }
 
-.location__hours {
-  list-style: none;
-  line-height: 5rem;
-  font-weight: 700;
-  color: #333; }
-  .location__hours span {
-    color: #1404f3; }
-
-#heading-location {
+.heading-location {
+  margin-top: 0;
   font-size: 3rem; }
 
 @keyframes btnMoveInBottom {
@@ -284,15 +276,6 @@ h2 {
       font-size: 2.4rem;
       margin-left: 0;
       padding-top: 2rem; } }
-
-h4 {
-  text-align: center;
-  padding-bottom: 2rem;
-  font-size: 1.6rem;
-  background-image: linear-gradient(to right, #1404f3, #2998ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: .3rem; }
 
 .u-center-text {
   text-align: center !important; }

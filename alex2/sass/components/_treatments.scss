@@ -9,7 +9,7 @@
 }
 
 .card {
-    // functunality
+    // functionality
     perspective: 150rem;
     -moz-perspective: 150rem;
     height: 52rem;
@@ -70,7 +70,6 @@
         text-transform: uppercase;
         text-align: center;
         width: 100%;
-        color: $color-white;
         flex-direction: column;
         background-image: linear-gradient(to right bottom, rgba($color-primary-light, .85), rgba($color-primary-dark, .85));
     }

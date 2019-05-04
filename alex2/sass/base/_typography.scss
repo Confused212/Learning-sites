@@ -29,7 +29,7 @@
     text-transform: uppercase;
     letter-spacing: .2rem;
     padding-top: 2rem;
-    background-image: linear-gradient(to right, $color-primary, $color-primary-light);
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     @include respond(tab-port) {
@@ -94,8 +94,6 @@ h4 {
     text-align: center;
     padding-bottom: 2rem;
     font-size: $default-font-size;
-    background-image: linear-gradient(to right, $color-primary, $color-primary-light);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: $color-gray-light-1;
     letter-spacing: .3rem;
 }

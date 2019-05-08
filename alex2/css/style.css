@@ -45,13 +45,16 @@ main {
   display: flex; }
   .about__card--image {
     margin-right: 7rem;
-    margin-bottom: 4rem; }
+    justify-content: center;
+    align-self: center; }
   .about__card--photo {
-    height: 50rem;
-    width: auto;
-    border-radius: 3rem; }
+    height: auto;
+    width: 40rem;
+    border-radius: 3rem;
+    transform: rotate(180deg); }
   .about__card--text {
     display: flex;
+    flex-wrap: wrap-reverse;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -80,6 +83,9 @@ hr {
   #about-review-1::after,
   #about-review-2::after {
     display: none; }
+
+#about-review-para {
+  padding-top: 0; }
 
 #about-img-1,
 #about-img-2 {

@@ -74,15 +74,7 @@ hr {
   margin-top: 0; }
   #about-review-1:hover,
   #about-review-2:hover {
-    transition: .5s;
-    background-image: none;
-    transform: none; }
-  #about-review-1::before,
-  #about-review-2::before {
-    display: none; }
-  #about-review-1::after,
-  #about-review-2::after {
-    display: none; }
+    transition: .5s; }
 
 #about-review-para {
   padding-top: 0; }
@@ -90,6 +82,67 @@ hr {
 #about-img-1,
 #about-img-2 {
   display: none; }
+
+.blog-main {
+  padding-top: 0; }
+
+.posts {
+  display: flex; }
+
+.media {
+  position: relative;
+  padding-bottom: 9rem;
+  flex: 0 1 50%; }
+  .media__image {
+    height: auto;
+    line-height: 0;
+    transform: scale(1);
+    transition: all .4s;
+    filter: brightness(70%); }
+    .media__image:hover {
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      transform: scale(1.02);
+      filter: brightness(100%); }
+  .media__info {
+    background-image: linear-gradient(to bottom, #1404f3, rgba(20, 4, 243, 0.2));
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    display: inline-block;
+    margin: 0 auto;
+    width: 70%;
+    height: 15rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+    transition: all .4s; }
+    .media__info--para {
+      color: #f7f7f7 !important; }
+    .media__info--btn {
+      position: absolute;
+      top: 65%;
+      left: 35%; }
+  .media:hover {
+    z-index: 10; }
+  .media-blog__info {
+    background-image: linear-gradient(to bottom, #1404f3, rgba(20, 4, 243, 0.2));
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    display: inline-block;
+    margin: 0 auto;
+    width: 70%;
+    height: 15rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+    transition: all .4s; }
+    .media-blog__info--para {
+      color: #f7f7f7 !important; }
+    .media-blog__info--btn {
+      position: absolute;
+      top: 65%;
+      left: 35%; }
 
 #map {
   height: 40rem;
@@ -696,6 +749,23 @@ input::placeholder {
     transform: scale(1.05) translateY(-0.5rem);
     box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.6); }
 
+.popup {
+  background-image: linear-gradient(to bottom, #1404f3, rgba(20, 4, 243, 0.2));
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+  .popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eee;
+    height: 60vh;
+    width: 80vw; }
+
 .testimonials {
   margin: 0 auto;
   display: flex;
@@ -1195,3 +1265,7 @@ address span {
 
 .section-gallery {
   text-align: center; }
+
+.section-blog-posts {
+  text-align: center;
+  background-color: #f7f7f7; }

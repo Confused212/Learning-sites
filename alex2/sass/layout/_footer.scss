@@ -82,7 +82,7 @@
     &__tel {
         margin-left: 3rem;
         padding-top: 1rem;
-        color: $color-gray-light-1;
+        color: $color-gray-light-2;
         font-size: 2rem;
         @include respond(phone) {
             margin: 1rem;
@@ -92,7 +92,7 @@
 }
 
 address {
-    color: $color-gray-light-1;
+    color: $color-primary-light;
     margin-right: 3rem;
     padding-right: 2rem;
     font-size: 1.5rem;
@@ -108,7 +108,7 @@ address {
 
 address span {
     font-size: 2rem;
-    color: $color-gray-light-1;
+    color: $color-primary-light;
     @include respond(tab-port) {
         font-size: 1.3rem;
     }

@@ -48,11 +48,12 @@
     &__para {
         padding-top: 3rem;
         transition: .5s;
+        font-size: $default-font-size;
     }
     &__heading {
         margin: 2rem 0 0;
         padding: 0;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 700;
         color: $color-primary-light;
         line-height: 2rem;

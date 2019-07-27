@@ -1,0 +1,99 @@
+.heading-primary {
+    color: $color-gray-light-1;
+    padding-top: 15rem;
+    &--main {
+        font-size: 6rem;
+        letter-spacing: 1.5rem;
+        //
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-size: 3.5rem;
+        }
+    }
+    &--sub {
+        font-size: 2.8rem;
+        letter-spacing: 1rem;
+        //
+        @include respond(phone) {
+            letter-spacing: .5rem;
+            font-size: 1.5rem;
+        }
+    }
+    @include respond(phone) {
+        padding-top: 10rem;
+    }
+}
+
+.heading-secondary {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding-top: 2rem;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
+    @include respond(phone) {
+        font-size: 3rem;
+    }
+}
+
+.heading-tertiary {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: $color-gray-dark-1;
+}
+
+.paragraph {
+    font-family: 'Playfair Display', serif;
+    font-size: $default-font-size;
+    color: $color-gray-dark-2;
+    &:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+    @include respond(desktop-large) {
+        font-size: 2.2rem;
+    }
+    @include respond(tab-land) {
+        font-size: 1.5rem;
+    }
+    @include respond(tab-port) {
+        font-size: 1.8rem;
+        padding-top: 1rem;
+    }
+    @include respond(phone) {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: $color-gray-dark-1;
+    //
+    @include respond(desktop-large) {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    @include respond(tab-port) {
+        margin-left: 2.5rem;
+        font-size: 2.2rem
+    }
+    @include respond(phone) {
+        font-size: 2.4rem;
+        margin-left: 0;
+        padding-top: 2rem;
+    }
+}
+
+h4 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: $default-font-size;
+    color: $color-gray-light-1;
+    letter-spacing: .3rem;
+}
